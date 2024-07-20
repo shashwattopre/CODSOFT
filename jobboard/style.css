@@ -23,6 +23,7 @@ body {
     padding: 1rem 2.5rem;
     background: #8ecae6;
     font-size: larger;
+    font-weight: bold;
 }
 
 .navbar-menu {
@@ -36,6 +37,11 @@ body {
     text-decoration: none;
     letter-spacing: 2.5;
     transition: 1s;
+}
+
+.navbar-menu>a:hover {
+    border-bottom: 2px solid;
+    transition: 65ms ease-in;
 }
 
 .head {
