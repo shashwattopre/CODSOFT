@@ -25,6 +25,24 @@ a {
     text-decoration: none;
 }
 
+.section {
+    width: 90%;
+    margin: auto;
+    border: 5px solid #8ecae6;
+    background-color: #8ecae6;
+    border-radius: 10px 65px 10px 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .content {
     width: 80%;
     float: right;
