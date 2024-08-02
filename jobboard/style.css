@@ -42,6 +42,7 @@ body {
 .navbar-menu>a:hover {
     border-bottom: 2px solid;
     transition: 65ms ease-in;
+    transform: scale(1.1);
 }
 
 .head {
@@ -71,6 +72,11 @@ div.main>div {
     width: 40%;
     float: right;
     display: block;
+}
+
+.startpic:hover {
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+    transform: scale(1.01);
 }
 
 .content1 {
